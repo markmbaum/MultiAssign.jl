@@ -20,7 +20,7 @@ x, y, z = (zeros(n) for _ in 1:3)
 
 Importantly, each of the variables is assigned with a distinct call to `zeros` in the example above. The resulting `x`, `y`, and `z` vectors are not copies of each other.
 
-The macro should work wherever multiple variables should be assigned the same value. It simply generates identical assignments for each variable. You 
+The macro should work wherever multiple variables should be assigned the same value. It simply generates identical assignments for each variable.
 
 Type annotations will also work if you need them, except in global scope. For example
 ```julia
